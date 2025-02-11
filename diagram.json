@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "isaque coelho de jesus",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": -3.25, "left": -15.65, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 17.2, "left": 134.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "pico:GND.8", "servo1:GND", "black", [ "h42.26", "v35.15" ] ],
+    [ "pico:3V3", "servo1:V+", "red", [ "h19.51", "v28.7" ] ],
+    [ "pico:GP22", "servo1:PWM", "blue", [ "h19.51", "v-29" ] ]
+  ],
+  "dependencies": {}
+}
