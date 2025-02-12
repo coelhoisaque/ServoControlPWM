@@ -4,6 +4,7 @@
 
 #define SERVO_PIN 22  // GPIO 22 conectado ao PWM do servomotor
 #define PWM_FREQ 50   // Frequência de 50 Hz (período de 20 ms)
+#define LED_PIN 12
 
 void set_servo_position(uint slice_num, uint channel, uint pulse_width_us) {
     // Calcula o valor do ciclo ativo (duty cycle) com base no tempo de pulso em microssegundos
@@ -48,5 +49,21 @@ int main() {
             set_servo_position(slice_num, channel, pulse_width);
             sleep_ms(10);
         }
+    }
+
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
+
+    while (true) {
+        // Posição 180°: LED ligado
+        gpio_put(LED_PIN, 1);
+        set_servo_position(...2400);
+        sleep_ms(5000);
+
+        // Posição 90°: LED piscando
+        gpio_put(LED_PIN, 0);
+        sleep_ms(250);
+        gpio_put(LED_PIN, 1);
+        
     }
 }
