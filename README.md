@@ -25,7 +25,7 @@ Projeto de controle de servomotor via PWM no Raspberry Pi Pico W, integrado a um
 ### Pré-requisitos
 - [VS Code](https://code.visualstudio.com/)
 - [Extensão Wokwi para VS Code](https://docs.wokwi.com/vscode/getting-started)
-- [Pico SDK](https://www.raspberrypi.com/documentation/microcontrollers/c-sdk.html)
+- [Pico SDK](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)
 
 ### Como Executar o Projeto
 
@@ -46,9 +46,11 @@ code .
 
 ##### **Observação do Comportamento**:
 - Observe a movimentação do servomotor e o comportamento do LED RGB no simulador.
-## Vídeo de Demonstração
+## 🎥 Vídeo de Demonstração  
 
-  Assista ao vídeo de demonstração do projeto [aqui](https://youtu.be/6wdlqLGdoDs).
+Assista à demonstração do projeto no YouTube!  
+📺 Clique no link para conferir: [Assista agora](https://youtu.be/6wdlqLGdoDs).
+
 ## Trechos Relevantes do Código 
 
 ### Controle do Servomotor
