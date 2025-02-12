@@ -2,7 +2,7 @@
 
 Projeto de controle de servomotor via PWM no Raspberry Pi Pico W, integrado a um LED para feedback visual. Desenvolvido em C com Pico SDK e simulado no Wokwi.
 
-## Funcionalidades Principais 💡
+## Funcionalidades Principais
 1. **Controle PWM de Servomotor**
    - Frequência de 50 Hz (período de 20 ms) no GPIO 22
    - Posições precisas: 0° (500µs), 90° (1470µs), 180° (2400µs)
