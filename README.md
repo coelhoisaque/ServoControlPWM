@@ -44,7 +44,7 @@ code .
 - Compile o código usando o Pico SDK.
 - Execute a simulação no Wokwi.
 **Observação do Comportamento**:
-   - Observe a movimentação do servomotor e o comportamento do LED RGB no simulador.
+- Observe a movimentação do servomotor e o comportamento do LED RGB no simulador.
 ## Vídeo de Demonstração
 
   Assista ao vídeo de demonstração do projeto [aqui](https://youtu.be/6wdlqLGdoDs).
