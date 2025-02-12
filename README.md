@@ -18,7 +18,7 @@ Projeto de controle de servomotor via PWM no Raspberry Pi Pico W, integrado a um
    - Servomotor conectado ao GPIO 22
    - LED com resistor de 1kΩ no GPIO 12
 
-<img src="" width="400" alt="Diagrama do Circuito">
+<img src="https://github.com/coelhoisaque/ServoControlPWM/blob/main/assets/image.png?raw=true" width="400" alt="Diagrama do Circuito">
 
 ## Como Executar 
 
