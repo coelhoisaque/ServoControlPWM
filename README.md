@@ -46,10 +46,6 @@ code .
 
 ##### **Observação do Comportamento**:
 - Observe a movimentação do servomotor e o comportamento do LED RGB no simulador.
-## 🎥 Vídeo de Demonstração  
-
-Assista à demonstração do projeto no YouTube!  
-📺 Clique no link para conferir: [Assista agora](https://youtu.be/6wdlqLGdoDs).
 
 ## Trechos Relevantes do Código 
 
